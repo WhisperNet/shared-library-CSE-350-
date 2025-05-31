@@ -3,6 +3,9 @@ import JWT from "jsonwebtoken"
 interface decodedUser {
   email: string
   id: string
+  profilePicture: string
+  fullName: string
+  isPremium: boolean
 }
 declare global {
   namespace Express {
