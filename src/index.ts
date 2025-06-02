@@ -12,3 +12,4 @@ export * from "./middlewares/require-auth"
 export * from "./middlewares/set-current-user"
 
 export * from "./events/subjects"
+export * from "./events/payment-created-event"
