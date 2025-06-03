@@ -3,4 +3,5 @@ export enum Subjects {
   ConnectionRequested = "connection:requested",
   ConnectionRejected = "connection:rejected",
   ConnectionAccepted = "connection:accepted",
+  PostDeleted = "post:deleted",
 }
